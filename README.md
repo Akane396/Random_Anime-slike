@@ -27,4 +27,4 @@
 
 ##### Evo slike same stranice
 
-![slika sajta](../slika/animer.jpg)
+![slika sajta](animer.jpg)
