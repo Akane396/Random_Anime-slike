@@ -1,0 +1,90 @@
+:root {
+  --bela: white;
+  --plavatamno:#1e1e2f;
+  --plava: #2c2c3a;
+  --pjena: #ADB2E8;
+}
+
+ html, body {
+  background-color: var(--plavatamno);
+  color: var(--bela);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 3px;
+  margin-top: -5px;
+}
+
+select,
+#button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+#button {
+  background-color: var(--plava);
+  color: var(--bela);
+}
+
+#image {
+  max-width: 90%;
+  max-height: 60vh;
+  border-radius: 12px;
+  margin: 20px 0;
+  border: 2px solid var(--bela);
+}
+
+select {
+  outline: none; 
+  border: none;  
+  background-color: var(--plava); 
+  color: var(--bela);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+select:focus {
+  outline: none; 
+  box-shadow: none; 
+}
+
+#As {
+  color: var(--pjena);
+}
+
+#vrati {
+  z-index: 50;
+  position: fixed;
+  top: 17px;
+  left: 4px;
+  border: none;
+  background: none;
+}
+
+#vrati > img {
+  width: 30px;
+  height: 30px;
+}
+
+#odhavise {
+  position: fixed;
+  right: 10px;
+  top: 18px;
+  width: 60px;
+  height: 37px;
+  border: none;
+  color: var(--pjena);
+  border-radius: 16px;
+  background-color: var(--plava);
+}
+

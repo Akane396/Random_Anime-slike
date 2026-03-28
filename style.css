@@ -1,0 +1,117 @@
+:root {
+  --bela: white;
+  --plavatamno:#1e1e2f;
+  --plava: #2c2c3a;
+  --pjena: #ADB2E8;
+}
+
+ html, body {
+  background-color: var(--plavatamno);
+  color: var(--bela);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  text-align: center;
+  padding: 3px;
+  margin-top: -5px;
+}
+
+select,
+button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+button {
+  background-color: var(--plava);
+  color: var(--bela);
+}
+
+img {
+  max-width: 90%;
+  max-height: 60vh;
+  border-radius: 12px;
+  margin: 20px 0;
+  border: 2px solid var(--bela);
+}
+
+select {
+  outline: none; 
+  border: none;  
+  background-color: var(--plava); 
+  color: var(--bela);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+select:focus {
+  outline: none; 
+  box-shadow: none; 
+}
+
+#As {
+  color: var(--pjena);
+}
+
+#novasli {
+  margin-top: 8px;
+  text-align: center;
+}
+
+.navbar {
+  position: fixed;
+  top: -15px;
+  right: 0;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  border: 2px solid var(--bela);
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 70px;
+  right: 10px;
+  background-color: var(--plava);
+  border: 1.30px solid var(--bela);
+  border-radius: 8px;
+  padding: 10px;
+  width: 107px;
+  height: 90px;
+  
+}
+
+.dropdown > a {
+  display: block;
+  padding: 5px;
+  text-align: left;
+  width: 70px;
+  height: 18px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--pjena);
+  margin-bottom: 4px; 
+}

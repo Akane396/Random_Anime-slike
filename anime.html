@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Anime Slike - Nekos.best</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="animate.png" type="image/x-icon" />
+  
+</head>
+<body>
+  <div class="navbar">
+    <img id="userIcon" class="avatar" src="default.png" alt="Avatar" onclick="toggleMenu()" />
+    <div class="dropdown" id="userMenu">
+      <a id="neme" href="settings.html">Podešavanja</a>
+      <a id="onama" href="onama.html">O Nama</a>
+      <a onclick="logout()">Odjavi se</a>
+      
+    </div>
+  </div>
+
+
+  <div class="container">
+    <h1><span id="As">A</span>nime Slike</h1>
+
+<label for="category">Izaberi kategoriju </label>
+<select id="category">
+  <option value="waifu">Waifu</option>
+  <option value="neko">Neko</option>
+  <option value="handhold">handhold</option>
+  <option value="husbando">husbando</option>
+  <option value="kitsune">Kitsune</option>
+  <option value="cry">Cry</option>
+  <option value="smile">Smile</option>
+  <option value="hug">Hug</option>
+  <option value="wink">Wink</option>
+  <option value="blush">Blush</option>
+  <option value="shoot">shoot</option>
+</select> <br />
+
+    <img id="anime-img" src="default.png" alt="Učitavanje slike..." loading="lazy">
+     <br> 
+    
+    <button onclick="loadImage()">Nova slika</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html> 

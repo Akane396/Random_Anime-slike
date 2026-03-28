@@ -1,0 +1,50 @@
+:root {
+  --bela: white;
+  --plavatamno:#1e1e2f;
+  --plava: #2c2c3a;
+  --pjena: #ADB2E8;
+}
+
+ html, body {
+  background-color: var(--plavatamno);
+  color: var(--bela);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#vrati {
+	z-index: 50;
+	position: fixed;
+	top: 17px;
+	left: 4px;
+	border: none;
+	background: none;
+}
+
+#vrati>img {
+	width: 30px;
+	height: 30px;
+}
+
+#onama {
+	font-size: 30px;
+	text-align: center;
+}
+
+.svi {
+	background-color: var(--plava);
+	width: 350px;
+	height: 12ppx;
+	text-align: center;
+	margin-left: 7px;
+	margin-top: 60px;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+.svi > p{
+	line-height: 1.50;
+	text-align: left;
+	margin-left: 25px;
+}

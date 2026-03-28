@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Regristracija</title>
+  <link rel="stylesheet" href="../css/regist.css">
+  <link rel="icon" href="../slike/animate.png" type="image/x-icon" />
+</head>
+<body>
+  <div class="sve">
+  <h2>Regristraci</h2>
+  <form id="registerForm">
+    <input type="text" id="regUsername" placeholder="Korisničko ime" required><br>
+ <div class="repassword-container">
+   <input type="password" id="repassword" placeholder="Šifra">
+  
+   <div class="toggle-password" onclick="togglePassword()">
+  <img id="slikica" src="../slike/hide.png" alt="prikazlozinka">
+  </div>
+   </div><br>
+    <button type="submit" id="regristracija">Registruj se</button>
+  </form>
+  <div class="regri">
+  <p>Imaš nalog? <a id="desni" href="index.html">Prijavi se</a></p>
+ </div>
+</div>
+  <script src="../js/regrista.js"></script>
+</body>
+</html>

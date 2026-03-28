@@ -1,0 +1,114 @@
+:root {
+  --bela: white;
+  --plavatamno:#1e1e2f;
+  --plava: #2c2c3a;
+  --pjena: #ADB2E8;
+  --crna: black;
+}
+
+body {
+  background-color: var(--plavatamno);
+  color: var(--bela);
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin: 0;
+  padding: 0;
+}
+
+.sve {
+  width: 350px;
+  height: 350px;
+  background-color: var(--plava);
+  border-radius: 13px;
+}
+
+.sve > h2 {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 30px;
+}
+
+#loginForm {
+ margin-left: 30px;
+}
+
+#loginUsername,
+#password {
+  width: 270px;
+  height: 37px;
+  background-color: var(--bela);
+  border: none;
+  border-radius: 16px;
+}
+
+#password {
+  margin-top: 20px;
+}
+
+input[type="password"] {
+  padding-left: 10px; 
+  font-size: 16px;  
+}
+
+input[type="text"] {
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+#loginUsername,
+#password:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#prijava {
+  margin-top: -5px;
+  width: 280px;
+  height: 40px;
+  border-radius: 15px;
+  border: none;
+  font-size: 18px;
+  background-color: var(--bela); 
+  color: var(--crna);
+  transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+#prijava:hover {
+  background-color: var(--pjena);
+  color: var(--bela);
+}
+
+.regri{
+ display: flex;
+ justify-content: center;
+ align-items: center;  
+ margin-top: 16px;
+ margin-left: -13px;
+}
+
+#desni {
+  text-decoration: none;
+  color: var(--pjena);
+}
+
+.toggle-password {
+  position: relative;
+  left: 240px;
+  top: -17px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 18px;
+  user-select: none;
+  width: 30px;
+  height: 30px;
+}
+
+.toggle-password > img {
+width: 24px;
+height: 24px;
+align-items: center;
+}

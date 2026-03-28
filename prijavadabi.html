@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prijava</title>
+  <link rel="stylesheet" href="../css/premijum.css" />
+    <link rel="icon" href="../slike/animate.png" type="image/x-icon" />
+
+</head>
+<body>
+  
+<p id="vrati">
+  
+  <a href="Anime.html">
+    <img id="strelica" src="../slike/arrow-small.png" alt="vrati">
+  </a>
+</p>
+  
+  <div class="sve">
+  <h2>Za Premijum Korsnike</h2>
+  <form id="loginForm">
+    <input type="text" id="loginUsername" placeholder="Korisničko ime"><br>
+  <div class="password-container">
+  <input type="password" id="password" placeholder="Šifra">
+  <div class="toggle-password" onclick="togglePassword()">️ 
+  
+  <img id="slikica" src="../slike/hide.png" alt="prikazlozika"> 
+  
+  </div>
+</div>
+    <br>
+    <button type="submit" id="prijava">Prijavi se</button>
+  </form>
+  <div class="regri">
+  <p id="error"></p>
+  
+<script src="../js/ppremi.js"></script>
+</body>
+</html>
