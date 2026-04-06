@@ -1,30 +1,60 @@
 # Anime Randomer
-*Anime randomer je abicijozni projekat mladog programera zvanog pod kodnim imenom(Akane42) zajubijo se u programiranje sa 15 godina i radi dan danas i usavrsaje se ovo je od njegovih projekata sam je smislijo sve boje i ime i ostalo a kod mu je malo pomagi chetgot ali ispravjoje greske njegove ali sve radi kako treba*
 
+**Anime Randomer** je ambiciozan projekat fokusiran na ljubitelje anime kulture. Aplikacija omogućava korisnicima istraživanje nasumičnih anime slika i informacija putem eksternih API-ja, uz personalizovano korisničko iskustvo.
 
-## O sajtu
-*Ovaj sajt je za Anime/Anime fanove.Ima API koji uzima slike sa drugog sajta i pruža ih korisnicima.ima i prijava i racun i ima oremijum deo i ima zandrove.*
+Projekt je razvio nezavisni programer pod pseudonimom **Akane42**. Razvoj je započeo sa 15 godina kao rezultat strasti prema programiranju, a kroz proces izrade fokus je bio na savladavanju front-end tehnologija, radu sa API servisima i rešavanju kompleksnih logičkih problema.
 
+---
 
+## 🚀 O Projektu
 
-### Tehnologija 
-*Progeamirano je u Editor code.i programski jezici su..Html.js.css.i Slike.i Api*
-*stranica se moze skinuti i pokrenuti u editoru/free je da se skine i vidi cod*
+Glavni cilj sajta je da pruži brz i zabavan način za otkrivanje novog anime sadržaja. Sistem koristi API za dinamičko povlačenje podataka, osiguravajući da je sadržaj uvek svež i raznolik.
 
-#### Ambicije da sajt ima
+### Glavne karakteristike:
+* **Dinamički API:** Automatsko povlačenje slika i podataka sa eksternih izvora.
+* **Sistem Autentifikacije:** Registracija, prijava i odjava korisnika.
+* **Korisnički Profili:** Svaki korisnik ima svoj nalog.
+* **Premium Sekcija:** Ekskluzivni sadržaj dostupan unutar posebnog dela sajta.
+* **Žanrovi:** Filtriranje sadržaja prema kategorijama.
 
-- [x]Api za slike
-- [x]prijave i regristracija
-- [x]Odjava sa stranice
-- [x]O nama sekcija
-- [x]Premijum deo
-- [ ]Chet sa drugima
-- [ ]Privatni chetovi i prosledjivanje datoteka
-- [ ]Sve debagati i da radi na ražlitim uredajima sucenje
-- [ ]Da ima animacije
-- [ ]Da ima Ai asistenta 3d Anime
-- [ ]Da se pozadina moze dodati /svetla i tamna i slike...
+---
 
-##### Evo slike same stranice
+## 🛠 Tehnologije
 
-![slika sajta](animer.jpg)
+Projekat je izgrađen korišćenjem modernih web tehnologija sa fokusom na optimizaciju i čistu strukturu koda:
+
+* **HTML5 & CSS3:** Za strukturu i moderan, minimalistički dizajn.
+* **JavaScript (ES6+):** Za logiku aplikacije i interakciju sa korisnikom.
+* **Rest API:** Integracija eksternih podataka u realnom vremenu.
+* **Responsive Design:** Osnova za prilagođavanje različitim uređajima.
+
+---
+
+## 📈 Planirani Razvoj (Roadmap)
+
+Projekat se aktivno razvija, a u planu su sledeće funkcionalnosti:
+
+- [x] Integracija API-ja za slike
+- [x] Sistem registracije i prijave korisnika
+- [x] Funkcionalnost odjave (Logout)
+- [x] "O nama" sekcija i Premium modul
+- [ ] **Globalni Chat:** Komunikacija sa drugim korisnicima u realnom vremenu.
+- [ ] **Privatne Poruke:** Razmena poruka i datoteka između korisnika.
+- [ ] **Potpuna Responsivnost:** Optimizacija korisničkog interfejsa za sve mobilne uređaje.
+- [ ] **Napredne Animacije:** Poboljšanje korisničkog iskustva kroz vizuelne efekte.
+- [ ] **AI Asistent:** Implementacija 3D Anime asistenta baziranog na veštačkoj inteligenciji.
+- [ ] **Prilagođavanje izgleda:** Dark/Light mod i podrška za pozadinske slike po izboru.
+
+---
+
+## 📸 Pregled interfejsa
+
+![Slika sajta](animer.jpg)
+
+---
+
+## 📄 Licenca i korišćenje
+
+Kôd je otvorenog tipa i dostupan za edukativne svrhe. Možete ga preuzeti, analizirati i pokrenuti u svom omiljenom editoru koda. 
+
+**Autor:** [Akane396]
