@@ -79,8 +79,8 @@ select:focus {
 }
 
 .avatar {
-  width: 40px;
-  height: 40px;
+  width: 45px;
+  height: 45px;
   border-radius: 50%;
   object-fit: cover;
   cursor: pointer;
@@ -90,10 +90,9 @@ select:focus {
 .dropdown {
   display: none;
   position: absolute;
-  top: 70px;
+  top: 60px;
   right: 10px;
   background-color: var(--plava);
-  border: 1.30px solid var(--bela);
   border-radius: 8px;
   padding: 10px;
   width: 107px;
@@ -115,3 +114,4 @@ select:focus {
   color: var(--pjena);
   margin-bottom: 4px; 
 }
+
