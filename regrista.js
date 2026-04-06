@@ -39,7 +39,7 @@ if (document.getElementById("registerForm")) {
       alert("Registracija i prijava uspješne!");
       
       // Prebaci ga na Anime.html (ili index.html zavisno šta želiš)
-      window.location.href = "anime.html";
+      window.location.href = "./anime.html";
       
     } catch (error) {
       console.error("Greška pri registraciji:", error.message);

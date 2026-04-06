@@ -68,5 +68,5 @@ const iditamo =  document.getElementById('hanimec')
 iditamo.addEventListener('click',
 
 function () {
-  location.href = "prijavadabi.html"
+  location.href = "./prijavadabi.html"
 })

@@ -35,11 +35,11 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
     if (isPremiumUser) {
       localStorage.setItem("isPremium", "true");
       alert("Dobrodošli, Premium korisniče!");
-      window.location.href = "hanime.html";
+      window.location.href = "./hanime.html";
     } else {
       localStorage.setItem("isPremium", "false");
       alert("Prijavljeni ste na običan račun.");
-      window.location.href = "anime.html";
+      window.location.href = "./anime.html";
     }
     
   } catch (error) {

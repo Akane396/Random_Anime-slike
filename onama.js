@@ -14,7 +14,7 @@ window.onload = async function() {
   } catch (error) {
     // Ako baci grešku, znači da nije ulogovan
     alert("Morate biti prijavljeni da biste vidjeli ovu stranicu.");
-    window.location.href = "index.html";
+    window.location.href = "./index.html";
   }
 };
 
@@ -22,6 +22,6 @@ window.onload = async function() {
 const idina = document.getElementById('vrati');
 if (idina) {
   idina.addEventListener('click', function() {
-    window.location.href = "anime.html";
+    window.location.href = "./anime.html";
   });
 }

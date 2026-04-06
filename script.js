@@ -33,7 +33,7 @@ async function checkUser() {
     
   } catch (error) {
     console.error("Nisi ulogovan:", error);
-    window.location.href = "index.html";
+    window.location.href = "./index.html";
   }
 }
 
@@ -65,9 +65,9 @@ async function logout() {
   try {
     await account.deleteSession('current');
     alert("Odjavljeni ste!");
-    window.location.href = "index.html";
+    window.location.href = "./index.html";
   } catch (error) {
-    window.location.href = "index.html";
+    window.location.href = "./index.html";
   }
 }
 
