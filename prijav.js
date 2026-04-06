@@ -12,7 +12,7 @@ window.onload = async () => {
   try {
     const user = await account.get();
     console.log("Korisnik već ulogovan:", user.name);
-    window.location.href = "Anime.html";
+    window.location.href = "anime.html";
   } catch (error) {
     console.log("Niko nije ulogovan, prikaži formu.");
   }
@@ -42,7 +42,7 @@ if (document.getElementById("loginForm")) {
       localStorage.setItem("loggedInUser", user.name);
       
       alert("Prijava uspješna!");
-      window.location.href = "Anime.html";
+      window.location.href = "anime.html";
       
     } catch (error) {
       console.error(error);

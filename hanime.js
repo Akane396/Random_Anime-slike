@@ -15,7 +15,7 @@ window.onload = async function() {
     
     if (!isPremium) {
       alert("Pristup odbijen! Ova stranica je samo za Premium korisnike.");
-      window.location.href = "Anime.html";
+      window.location.href = "anime.html";
       return;
     }
     
@@ -55,13 +55,13 @@ function logout() {
   // i vraćamo korisnika na običnu stranicu.
   localStorage.removeItem("isPremium");
   alert("Izlazak iz Premium zone...");
-  window.location.href = "Anime.html";
+  window.location.href = "anime.html";
 }
 
 // Dugme za povratak (identično kao logout u tvom slučaju)
 const idina = document.getElementById('vrati');
 if (idina) {
   idina.addEventListener('click', function() {
-    window.location.href = "Anime.html";
+    window.location.href = "anime.html";
   });
 }

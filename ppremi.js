@@ -39,7 +39,7 @@ document.getElementById("loginForm").addEventListener("submit", async function(e
     } else {
       localStorage.setItem("isPremium", "false");
       alert("Prijavljeni ste na običan račun.");
-      window.location.href = "Anime.html";
+      window.location.href = "anime.html";
     }
     
   } catch (error) {

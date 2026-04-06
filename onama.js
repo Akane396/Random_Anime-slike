@@ -22,6 +22,6 @@ window.onload = async function() {
 const idina = document.getElementById('vrati');
 if (idina) {
   idina.addEventListener('click', function() {
-    window.location.href = "Anime.html";
+    window.location.href = "anime.html";
   });
 }
