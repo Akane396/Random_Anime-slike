@@ -2,7 +2,7 @@
 
 **Anime Randomer** je ambiciozan projekat fokusiran na ljubitelje anime kulture. Aplikacija omogućava korisnicima istraživanje nasumičnih anime slika i informacija putem eksternih API-ja, uz personalizovano korisničko iskustvo.
 
-Projekt je razvio nezavisni programer pod pseudonimom **Akane42**. Razvoj je započeo sa 15 godina kao rezultat strasti prema programiranju, a kroz proces izrade fokus je bio na savladavanju front-end tehnologija, radu sa API servisima i rešavanju kompleksnih logičkih problema.
+Projekt je razvio nezavisni programer pod pseudonimom **Akane396**. Razvoj je započeo sa 15 godina kao rezultat strasti prema programiranju, a kroz proces izrade fokus je bio na savladavanju front-end tehnologija, radu sa API servisima i rešavanju kompleksnih logičkih problema.
 
 ---
 
