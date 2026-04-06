@@ -42,7 +42,7 @@ if (document.getElementById("loginForm")) {
       localStorage.setItem("loggedInUser", user.name);
       
       alert("Prijava uspješna!");
-      window.location.href = "anime.html";
+      window.location.href = "./anime.html";
       
     } catch (error) {
       console.error(error);
