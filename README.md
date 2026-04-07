@@ -6,13 +6,19 @@ Projekt je razvio nezavisni programer pod pseudonimom **Akane396**. Razvoj je za
 
 ---
 
+## 🔗 Link ka projektu
+Možete pristupiti aplikaciji uživo ovde:
+👉 [**Anime Randomer - Live Demo**](https://akane396.github.io/Random_Anime-slike/anime.html)
+
+---
+
 ## 🚀 O Projektu
 
 Glavni cilj sajta je da pruži brz i zabavan način za otkrivanje novog anime sadržaja. Sistem koristi API za dinamičko povlačenje podataka, osiguravajući da je sadržaj uvek svež i raznolik.
 
 ### Glavne karakteristike:
 * **Dinamički API:** Automatsko povlačenje slika i podataka sa eksternih izvora.
-* **Sistem Autentifikacije:** Registracija, prijava i odjava korisnika.
+* **Sistem Autentifikacije:** Registracija, prijava i odjava korisnika (Supabase integracija).
 * **Korisnički Profili:** Svaki korisnik ima svoj nalog.
 * **Premium Sekcija:** Ekskluzivni sadržaj dostupan unutar posebnog dela sajta.
 * **Žanrovi:** Filtriranje sadržaja prema kategorijama.
