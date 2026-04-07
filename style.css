@@ -1,7 +1,7 @@
 :root {
   --bela: white;
   --plavatamno:#1e1e2f;
-  --plava: #2c2c3a;
+  --plava: black;
   --pjena: #ADB2E8;
 }
 
@@ -111,7 +111,7 @@ select:focus {
   cursor: pointer;
   font-size: 14px;
   text-decoration: none;
-  color: var(--pjena);
+  color: var(--bela);
   margin-bottom: 4px; 
 }
 

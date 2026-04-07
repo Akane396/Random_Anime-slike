@@ -1,7 +1,7 @@
 :root {
   --bela: white;
   --plavatamno:#1e1e2f;
-  --plava: #2c2c3a;
+  --plava: black;
   --pjena: #ADB2E8;
   --crna: black;
 }
@@ -72,12 +72,13 @@ input[type="text"] {
   font-size: 18px;
   background-color: var(--bela);
   color: var(--crna);
-  transition: background-color 0.4s ease, color 0.4s ease;
+  transition: background-color 1.5s ease, color 1.5s ease;
 }
 
-#regristracija:hover {
+#regristracija:active {
   background-color: var(--pjena);
-  color: var(--bela);
+  color: var(--crna);
+  transition: background-color 0s;
 }
 
 .regri {
